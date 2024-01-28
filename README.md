@@ -37,7 +37,7 @@ You can chat with your friends if you deploy this. Otherwise you can use a remot
           suggested one is :<i> Eclipse Enterprise Java and web developer tools 3.31</i><br>
           Or you can download anyone who supports servlet, jsp, and others mentioned above.
 
- <b>Step-3 : Download Apache tomcat server make sure you use tomcat 10 and above. You can download this form official website [tomcat.apache.org](https://tomcat.apache.org/download-10.cgi), also Unzip it.
+ <b>Step-3 :</b> Download Apache tomcat server make sure you use tomcat 10 and above. You can download this form official website [tomcat.apache.org](https://tomcat.apache.org/download-10.cgi), also Unzip it.
 
 <b>Step-4 :</b> Setup Tocat with Eclipse : you can setup tomcat go to Windows->Show Views->Servers<br>
 A new tab will open where console located, with the name of server click on the given link to add new server -> choose your company and version of server you intalled, in my case this is <b>Apache->Tomcat 10 ->click on next-> locate the Apache tomcat directory you downloaded in previous step.-> Hit on next if available otherwise click on finish.<b>
