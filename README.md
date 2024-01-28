@@ -14,12 +14,12 @@ A web based chat application created in java using Servlet, JSP, MYSQL, CSS, Jav
 
 <div style="display: flex;flex-direction: column; grid-gap: 10px;">
     <div style="display: flex; grid-gap: 10px;">
-        <img src="src/main/webapp/images/ch1.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
-        <img src="src/main/webapp/images/ch2.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
+        <img src="src/main/webapp/images/ch1.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
+        <img src="src/main/webapp/images/ch2.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
     </div>
     <div style="display: flex; grid-gap: 10px;">
-        <img src="src/main/webapp/images/ch3.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
-        <img src="src/main/webapp/images/ch4.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
+        <img src="src/main/webapp/images/ch3.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
+        <img src="src/main/webapp/images/ch4.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
     </div>
 </div>
 ```bash
