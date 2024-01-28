@@ -53,23 +53,23 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
     
   creating a database :
     
-    ```sql
+```sql
     
   create database chat;
       
-    ```
+```
     
   using the database :
     
-    ```sql
+```sql
     
   use chat;
       
-    ```
+```
     
   creating a table for messages :
    
-     ```sql
+```sql
      
       CREATE TABLE `messages` (
 	  `msg_id` int(20) NOT NULL AUTO_INCREMENT,
@@ -77,11 +77,12 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
 	  `outgoing_msg_id` varchar(255) NOT NULL,
 	  `msg` varchar(1000) NOT NULL,
 	   PRIMARY KEY (`msg_id`)) AUTO_INCREMENT = 100;
-      
-     ``` 
+	   
+``` 
+
   creating a table for users :
     
-    ```sql
+```sql
     
 	    CREATE TABLE `users` (
 	  `user_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -94,7 +95,7 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
 	  `status` varchar(255) NOT NULL,
 	 PRIMARY KEY (`msg_id`)) AUTO_INCREMENT = 100;
  
-    ```
+```
     
   
 Step-7: Now you are ready to run the application: Right click on project(WebChatApp)->Run As->Run on Server->it may ask you what applications you want to run choose  WebChatApp and finish
