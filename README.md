@@ -62,7 +62,7 @@ CREATE DATABASE chat;
   using the database :
     
 ```sql
-    
+
 USE chat;
       
 ```
