@@ -10,10 +10,18 @@ A web based chat application created in java using Servlet, JSP, MYSQL, CSS, Jav
   5. Apache Tomcat-10 web server
   6. Created in Eclipse IDE
 
-## How to use
+## Screenshots
 
-<img src="https://dco-assets.everestads.net/iCornerStore/source-images/MICROSOFTSTORE/current/ab6aec647f4a3b7aff279d755db43f22.png" width="128"/>
-
+<div style="display: flex;flex-direction: column; grid-gap: 10px;">
+    <div style="display: flex; grid-gap: 10px;">
+        <img src="src/main/webapp/images/ch1.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
+        <img src="src/main/webapp/images/ch2.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
+    </div>
+    <div style="display: flex; grid-gap: 10px;">
+        <img src="src/main/webapp/images/ch3.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
+        <img src="src/main/webapp/images/ch4.png" alt="screenshots" width="50%" style="border: 2px solid lightgreen"/>
+    </div>
+</div>
 ```bash
 pip install foobar
 ```
