@@ -58,17 +58,17 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
 CREATE DATABASE chat;
 
 ```
-    
+
   using the database :
-    
+
 ```sql
 
 USE chat;
 
 ```
-    
+
   creating a table for messages :
-   
+
 ```sql
 
 CREATE TABLE `messages` (
@@ -77,11 +77,11 @@ CREATE TABLE `messages` (
   `outgoing_msg_id` varchar(255) NOT NULL,
   `msg` varchar(1000) NOT NULL,
  PRIMARY KEY (`msg_id`)) AUTO_INCREMENT = 100;
- 
+
 ``` 
 
   creating a table for users :
-    
+
 ```sql
 
 CREATE TABLE `users` (
@@ -94,7 +94,7 @@ CREATE TABLE `users` (
   `img` varchar(400) NOT NULL,
   `status` varchar(255) NOT NULL,
  PRIMARY KEY (`msg_id`)) AUTO_INCREMENT = 100;
- 
+
 ```
     
   
