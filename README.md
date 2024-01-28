@@ -51,15 +51,20 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
   using mysql command line client OR workbench - 
    you can simple run the given queries to create your database setup: 
     
-    creating a database
+    creating a database :
+    
     ```sql
       create database chat;
     ```
-    using the database- 
+    
+    using the database :
+    
      ```sql
       use chat;
     ```
-    creating a table for messages - 
+    
+    creating a table for messages :
+    
      ```sql
       CREATE TABLE `messages` (
   `msg_id` int(20) NOT NULL AUTO_INCREMENT,
@@ -68,7 +73,7 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
   `msg` varchar(1000) NOT NULL,
    PRIMARY KEY (`msg_id`)) AUTO_INCREMENT = 100;;
     ``` 
-    creating a table for users - 
+    creating a table for users :
     
     ```sql
     CREATE TABLE `users` (
