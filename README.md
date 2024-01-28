@@ -22,6 +22,8 @@ A web based chat application created in java using Servlet, JSP, MYSQL, CSS, Jav
         <img src="src/main/webapp/images/ch4.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
     </div>
 </div>
+<br>
+
 ```bash
 pip install foobar
 ```
