@@ -49,26 +49,26 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
   using phpmyadmin = if you are using php myadmin then simpley create a new database with the name of 'chat' and then you can import file database/chat.sql from your import tab.
   
   using mysql command line client OR workbench - 
-   you can simple run the given queries to create your database setup: 
+  you can simple run the given queries to create your database setup: 
     
-    creating a database :
-    
-    ```sql
-    
-      create database chat;
-      
-    ```
-    
-    using the database :
+  creating a database :
     
     ```sql
     
-      use chat;
+  create database chat;
       
     ```
     
-    creating a table for messages :
+  using the database :
     
+    ```sql
+    
+  use chat;
+      
+    ```
+    
+  creating a table for messages :
+   
      ```sql
      
       CREATE TABLE `messages` (
@@ -79,7 +79,7 @@ Step-6: Database Setup : to setup your database you can use the file database/ch
 	   PRIMARY KEY (`msg_id`)) AUTO_INCREMENT = 100;
       
      ``` 
-    creating a table for users :
+  creating a table for users :
     
     ```sql
     
